@@ -9,9 +9,10 @@ class Header extends Component {
                         <span className="of">of</span>
                         <span className="the">the</span>
                     </span>
-                     day</h1>
+                     day
+                </h1>
                 <h3 className="tagline">
-                    <span>Fresh Daily</span>
+                    <span>Fresh Seafood Market</span>
                 </h3>
             </header>
         )
