@@ -9,8 +9,9 @@ class App extends Component {
             <div className="catch-of-the-day">
                 {/* <p>heyyy!</p> */}
                 <div className="menu">
-                    <Header  tagline="Fresh Seafood Market"/>
-                    <Header  tagline="Wes is Cool"/>
+                    {/* <Header  tagline="Fresh Seafood Market"/> */}
+                    {/* <Header  tagline="Wes is Cool"/> */}
+                    <Header tagline="Fresh Seafood Market" age={100} />
                 </div>
                     <Order />
                     <Inventory />
