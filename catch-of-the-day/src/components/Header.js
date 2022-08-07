@@ -37,7 +37,7 @@ import React, {Component} from "react";
 //         </header>
 //     )
 // }
-const Header = ({tagline, age}) => (
+const Header = (props) => (
     <header className="top">
         <h1>Catch 
             <span className="ofThe">
@@ -48,7 +48,7 @@ const Header = ({tagline, age}) => (
         </h1>
         <h3 className="tagline">
             {/* <span>Fresh Seafood Market</span> */}
-            <span>{tagline} {age}</span>
+            <span>{props.tagline}</span>
         </h3>
     </header>
 )
